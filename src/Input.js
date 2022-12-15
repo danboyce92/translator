@@ -1,11 +1,17 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 
 const Input = () => {
 
     return(
         <div className ='input'>
-            Hello
+
+            <label className="neu-label" htmlFor="input-field">Input field</label>
+            <input className="neu-input" id="input-field" type="text" placeholder='Type here' />
+
+
+
+
         </div>
     )
 }

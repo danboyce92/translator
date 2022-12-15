@@ -1,0 +1,35 @@
+
+.svenska {
+ grid-column-start: 1;
+ grid-column-end: 2;
+}
+
+.svenskaflag {
+    background-color: #006AA7;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+.svenskaflag::before {
+    background-color: #FECC00;
+    content: "";
+    height: 15%;
+    left: 0;
+    margin-top: -5%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+.svenskaflag::after {
+    background-color: #FECC00;
+    content: "";
+    height: 100%;
+    left: 30%;
+    margin-left: -5%;
+    position: absolute;
+    top: 0;
+    width: 9%;
+
+}

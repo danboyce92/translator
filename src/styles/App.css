@@ -1,0 +1,82 @@
+.languageBoxes {
+    display:grid;
+    margin-top: 300px;
+    margin-left: 150px;
+    row-gap: 100px;
+}
+
+.input {
+    top: 15px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    height: 8em;
+    
+}
+
+.label  {
+    position: absolute;
+    margin: auto;
+}
+
+#form {
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    background-color: aqua;
+    height: 100%;
+}
+
+#text {
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+}
+
+.field {
+    position: relative;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* Style for the input field */
+.neu-input {
+    /* Add some basic styling */
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+  
+    /* Add a brutalist touch with some sharp corners and a monospace font */
+    font-family: monospace;
+    border-radius: 0;
+  }
+  
+  /* Style for the label associated with the input field */
+  .neu-label {
+    /* Add some basic styling */
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 8px;
+  
+    /* Use uppercase letters and a monospace font for a more brutalist look */
+    text-transform: uppercase;
+    font-family: monospace;
+  }
+
+  #input-field {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
