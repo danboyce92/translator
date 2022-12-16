@@ -1,14 +1,15 @@
 .dansk {
-
     grid-column-start: 2;
     grid-column-end: 3;
+    right: 100px;
 }
 
 .danskflag {
     background-color: #a70000;
-    width: 500px;
-    height: 300px;
+    width: 750px;
+    height: 450px;
     position: relative;
+    border-radius: 5px;
 }
 
 .danskflag::before {

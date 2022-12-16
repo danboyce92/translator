@@ -1,63 +1,60 @@
-.norsk {
+.islensku {
     grid-row-start: 2;
-    grid-column-end: 2;
-    margin-left: 100px;
-    
+    grid-column-end: 3;
+    margin-right: 100px;
 }
-
-
   
-  .norskflag {
+  .islenskuflag {
     position: relative;
     width: 750px;
     height: 450px;
-    background-color: #a70000;
+    background-color: #34495e;
     border-radius: 5px;
   }
   
-  .norskflag .blue {
+  .islenskuflag .blue {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 1;
   }
   
-  .norskflag .blue:before, .norskflag .blue:after {
+  .islenskuflag .blue:before, .islenskuflag .blue:after {
     position: absolute;
     content: '';
-    background-color: #34495e;
+    background-color: #a70000;
   }
-  .norskflag .blue:before {
+  .islenskuflag .blue:before {
     bottom: 0;
     left: 200px;
     width: 40px;
     height: 100%;
   }
-  .norskflag .blue:after {
+  .islenskuflag .blue:after {
     top: 50%;
     right: 0;
     width: 100%;
     height: 40px;
     transform: translateY(-50%);
   }
-  .norskflag .white {
+  .islenskuflag .white {
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 0;
   }
-  .norskflag .white:before, .norskflag .white:after {
+  .islenskuflag .white:before, .islenskuflag .white:after {
     position: absolute;
     content: '';
     background-color: #fff;
   }
-  .norskflag .white:before {
+  .islenskuflag .white:before {
     bottom: 0;
     left: 180px;
     width: 80px;
     height: 100%;
   }
-  .norskflag .white:after {
+  .islenskuflag .white:after {
     top: 50%;
     left: 0;
     width: 100%;

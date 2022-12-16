@@ -2,13 +2,15 @@
 .svenska {
  grid-column-start: 1;
  grid-column-end: 2;
+ margin-left: 100px;
 }
 
 .svenskaflag {
     background-color: #006AA7;
-    width: 500px;
-    height: 300px;
+    width: 750px;
+    height: 450px;
     position: relative;
+        border-radius: 5px;
 }
 
 .svenskaflag::before {
@@ -32,4 +34,13 @@
     top: 0;
     width: 9%;
 
+}
+
+.swedishBox {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    z-index: 5;
 }

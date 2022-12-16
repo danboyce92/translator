@@ -21,6 +21,10 @@ function App() {
       lang="norsk"
       />
 
+      <TranslatedBox 
+      lang="islensku"
+      />
+
 
 
       </div>

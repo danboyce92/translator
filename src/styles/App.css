@@ -1,8 +1,15 @@
+.App {
+    background-color: #333;
+}
+
 .languageBoxes {
     display:grid;
-    margin-top: 300px;
-    margin-left: 150px;
+    position: relative;
     row-gap: 100px;
+    place-self: center;
+    background-color: aqua;
+    margin-top: 200px;
+
 }
 
 .input {

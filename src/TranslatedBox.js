@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/swedish.css';
 import './styles/danish.css';
 import './styles/norwegian.css';
+import './styles/icelandic.css';
 
 const TranslatedBox = ({ lang }) => {
 
