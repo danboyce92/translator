@@ -4,7 +4,7 @@ import './styles/swedish.css'
 
 let sweden = document.querySelector('.svenska');
 
-const Convert = ({ language, text }) => {
+const Convert = ({ language, lang, text }) => {
     	const [translated, setTranslated] = useState('');
         const [debouncedText, setDebouncedText] = useState(text);
 
@@ -38,9 +38,11 @@ const Convert = ({ language, text }) => {
         
     }, [language, debouncedText]);
 
+    
+
     return (
     <div>
-        <h1 className="swedishBox">{translated}</h1>
+        <h1 className={`${lang}box`}>{translated}</h1>
     </div>
     )
 };

@@ -1,12 +1,10 @@
 .norsk {
-    grid-row-start: 2;
-    grid-column-end: 2;
-    margin-left: 100px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
     
 }
 
-
-  
   .norskflag {
     position: relative;
     width: 750px;
@@ -65,3 +63,13 @@
     transform: translateY(-50%);
   }
   
+  .norskbox {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: #a70000;
+    color: #ffffff;
+    z-index: 5;
+    top: -180px;
+    left: 280px;
+}

@@ -1,20 +1,19 @@
-
-.svenska {
- grid-row-start: 1;
- grid-row-end: 2;
+.finnish {
+    grid-row-start: 3;
+    grid-row-end: 4;
 
 }
 
-.svenskaflag {
-    background-color: #006AA7;
+.finnishflag {
+    background-color: #ffffff;
     width: 750px;
     height: 450px;
     position: relative;
-        border-radius: 5px;
+    border-radius: 5px;
 }
 
-.svenskaflag::before {
-    background-color: #FECC00;
+.finnishflag::before {
+    background-color: #34495e;
     content: "";
     height: 15%;
     left: 0;
@@ -22,10 +21,9 @@
     position: absolute;
     top: 50%;
     width: 100%;
-
 }
-.svenskaflag::after {
-    background-color: #FECC00;
+.finnishflag::after {
+    background-color: #34495e;
     content: "";
     height: 100%;
     left: 30%;
@@ -33,15 +31,14 @@
     position: absolute;
     top: 0;
     width: 9%;
-
 }
 
-.svenskabox {
+.finnishbox {
     position: relative;
     height: 100px;
     width: 400px;
-    background-color: #006AA7;
-    color: #FECC00;
+    background-color: #ffffff;
+    color: #34495e;
     z-index: 5;
     top: -180px;
     left: 280px;

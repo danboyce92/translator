@@ -1,7 +1,7 @@
 .dansk {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    right: 100px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
 }
 
 .danskflag {
@@ -31,4 +31,15 @@
     position: absolute;
     top: 0;
     width: 9%;
+}
+
+.danskbox {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: #a70000;
+    color: #ffffff;
+    z-index: 5;
+    top: -180px;
+    left: 280px;
 }
