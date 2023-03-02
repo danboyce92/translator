@@ -1,15 +1,11 @@
-.dansk {
-    grid-row-start: 2;
-    grid-row-end: 3;
-
-}
 
 .danskflag {
     background-color: #a70000;
-    width: 750px;
-    height: 450px;
+    width: 500px;
+    height: 300px;
     position: relative;
     border-radius: 5px;
+    top: 40px;
 }
 
 .danskflag::before {
@@ -36,10 +32,10 @@
 .danskbox {
     position: relative;
     height: 100px;
-    width: 400px;
+    width: 300px;
     background-color: #a70000;
     color: #ffffff;
     z-index: 5;
-    top: -180px;
-    left: 280px;
+    top: -80px;
+    left: 190px;
 }

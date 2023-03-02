@@ -1,16 +1,13 @@
 
-.svenska {
- grid-row-start: 1;
- grid-row-end: 2;
 
-}
 
 .svenskaflag {
     background-color: #006AA7;
-    width: 750px;
-    height: 450px;
+    width: 500px;
+    height: 300px;
     position: relative;
-        border-radius: 5px;
+    border-radius: 5px;
+    top: 40px;
 }
 
 .svenskaflag::before {
@@ -39,10 +36,10 @@
 .svenskabox {
     position: relative;
     height: 100px;
-    width: 400px;
+    width: 320px;
     background-color: #006AA7;
     color: #FECC00;
     z-index: 5;
-    top: -180px;
-    left: 280px;
+    top: -80px;
+    left: 180px;
 }

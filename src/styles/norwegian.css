@@ -1,16 +1,12 @@
-.norsk {
-    grid-row-start: 4;
-    grid-row-end: 5;
 
-    
-}
 
   .norskflag {
     position: relative;
-    width: 750px;
-    height: 450px;
+    width: 500px;
+    height: 300px;
     background-color: #a70000;
     border-radius: 5px;
+    top: 40px;
   }
   
   .norskflag .blue {
@@ -27,7 +23,7 @@
   }
   .norskflag .blue:before {
     bottom: 0;
-    left: 200px;
+    left: 120px;
     width: 40px;
     height: 100%;
   }
@@ -51,7 +47,7 @@
   }
   .norskflag .white:before {
     bottom: 0;
-    left: 180px;
+    left: 100px;
     width: 80px;
     height: 100%;
   }
@@ -65,11 +61,11 @@
   
   .norskbox {
     position: relative;
-    height: 100px;
-    width: 400px;
+    height: 80px;
+    width: 300px;
     background-color: #a70000;
     color: #ffffff;
     z-index: 5;
-    top: -180px;
-    left: 280px;
+    top: -65px;
+    left: 190px;
 }
