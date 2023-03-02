@@ -3,8 +3,6 @@ import axios from 'axios';
 import './styles/App.css';
 import './styles/swedish.css';
 
-let sweden = document.querySelector('.svenska');
-
 const Convert = ({ language, lang, text }) => {
   const [translated, setTranslated] = useState('');
   const [debouncedText, setDebouncedText] = useState(text);
