@@ -7,7 +7,7 @@ const Convert = ({ language, lang, text }) => {
   const [translated, setTranslated] = useState('');
   const [debouncedText, setDebouncedText] = useState(text);
 
-  const apiKey = process.env.TRANSLATE_API;
+  const apiKey = process.env.REACT_APP_TRANSLATE_API;
 
   useEffect(() => {
     const timerId = setTimeout(() => {
